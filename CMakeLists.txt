@@ -189,8 +189,9 @@ qt_add_translations(${PROJECT_NAME}
     PLURALS_TS_FILE ${PROJECT_NAME}_en.ts
     NO_GENERATE_PLURALS_TS_FILE
 )
-add_custom_target(update_translations ALL)
-add_custom_target(release_translations ALL)
+# uncomment to update translations
+#add_custom_target(update_translations ALL)
+#add_custom_target(release_translations ALL)
 #########################
 
 target_link_libraries(${PROJECT_NAME}
@@ -205,4 +206,5 @@ install(TARGETS ${PROJECT_NAME}
     LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR}
     RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR}
 )
+
 
