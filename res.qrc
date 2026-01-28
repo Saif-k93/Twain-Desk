@@ -1,0 +1,20 @@
+<RCC>
+    <qresource prefix="/">
+        <file>assets/error_24px.png</file>
+        <file>assets/info_24px.png</file>
+        <file>assets/warning_24px.png</file>
+        <file>assets/light-mode_24px.png</file>
+        <file>assets/night-mode_24px.png</file>
+        <file>assets/refresh_24px.png</file>
+        <file>assets/app-icon_32px.png</file>
+        <file>assets/titlebar/Close.png</file>
+        <file>assets/titlebar/Hide.png</file>
+        <file>assets/titlebar/Maximize.png</file>
+        <file>assets/titlebar/Minimize.png</file>
+        <file>assets/titlebar/Restore.png</file>
+        <file>assets/star_24px.png</file>
+        <file>assets/restore_24px.png</file>
+        <file>assets/operating-system_24px.png</file>
+        <file>assets/load-content_32px.png</file>
+    </qresource>
+</RCC>
